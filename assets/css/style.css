@@ -6,7 +6,7 @@
 header {
     display:flex;
     justify-content:space-between;
-    padding:20px;
+    padding:40px;
     margin:0px;
     line-height:20px;
 }
@@ -35,7 +35,8 @@ header {
 
 .header-block {
     display:flex;
-    /* flex-wrap:wrap; */
+    flex-shrink;
+    padding-left;
     flex-direction:column;
     justify-content:flex-end;
     justify-content:space-between;
@@ -43,14 +44,16 @@ header {
 }
 .header-list {
     display:flex;
+    list-style-type:none;
     flex-direction:row;
-    box-sizing:border-box;
+    /* box-sizing:border-box; */
     justify-content:space-between;
     min-width:800px;
     font-size:20px;
+    margin-top:30px;
 }
 
-p {
+.header-block p {
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
