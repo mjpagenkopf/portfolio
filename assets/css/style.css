@@ -59,5 +59,13 @@ header {
     justify-content:flex-end;
     margin: 20px 0px 30px 0px;
     font-size:50px;
-    /* text-align:center; */
+    
+}
+
+.flex-body {
+    display:flex;
+}
+
+.profile-image {
+    
 }
