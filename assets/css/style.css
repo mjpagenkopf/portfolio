@@ -1,15 +1,24 @@
-* {
+* { 
     color:ghostwhite;
     margin:0px;
     background-color:rgb(2, 2, 66);
+    border-style:solid;
 }
+
+body {
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
 
 header {
     display:flex;
     flex-direction:column;
     justify-content:space-between;
     margin:20px;
-    max-width:500px;
+    min-width:1200px;
+    border-style:solid;
 }
 
 .header-name {
@@ -17,6 +26,7 @@ header {
     flex-direction:column;
     flex-wrap:wrap;
     min-width:250px;
+    border-style:solid;
 }
 
 .header-name h1 {
@@ -24,50 +34,57 @@ header {
     justify-content:flex-start;
     color:salmon;
     font-size:60px;
+    border-style:solid;
 }
 
 .header-name h2 {
     color:springgreen;
-    text-align:center;
+    text-align:left;
     font-size:x-large;
+    border-style:solid;
 }
 
  .header-block {
     display:flex;
     flex-direction:column;
     justify-content:space-between;
+    border-style:solid;
  
 }
 .header-list {
-    display:flex;
+    display:inline-flex;
     list-style-type:none;
     flex-direction:row;
-    justify-content:space-between;
-    
+    justify-content:space-between;   
     min-width:600px;
+    border-style:solid;
     
+}   
+
+#hero-image {
+    height:400px;
+    background-image:url(../images/IMG_1987.JPG);
+    background-size:cover;
+    background-position:center;
 }
 
+.body {
+    display:flex;
+    border-color:salmon;
+    border-width:10px;
+    flex-direction:column;
+}
 
-    
-
-.flex-body {
+.profile-image {
     display:flex;
     flex-direction:row;
 }
 
-.hero-image img {
-    display:flex;
-    flex-wrap:wrap;
-    max-height:80%;
-    max-width:150%;
-}
-
-
-
 .profile-image img {
-    
+    align-self: center;
 }
+
+
 
 
 
