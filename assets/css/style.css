@@ -9,7 +9,7 @@ body {
     width:100%;
     background: linear-gradient(hsl(0, 60%, 27%), #5e50db);
 }
-
+/* HEADER */
 header {
     display:flex;
     flex-direction:column;
@@ -52,27 +52,9 @@ header .header-block {
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding:0px 0px 0px 600px;  
 }
+/* END OF HEADER */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* GRID SETUP */
 .grid-image {
     background-image:url(../images/machu\ picchu.jpg);
     background-size:cover;
@@ -81,7 +63,7 @@ header .header-block {
 .grid-container {
     display:grid;
     grid-gap:7px;
-    grid-template-columns:repeat(2, 2fr);
+    grid-template-columns:repeat(auto-fit);
     justify-content:space-evenly;
 }
 
@@ -89,12 +71,7 @@ header .header-block {
     height:400px;
     background-size:cover;
     background-attachment:fixed;
-    opacity:0.2;  
-}
-
-.grid-image .img3 img {
-    display:grid;
-    justify-content:center;
+    opacity:0.9;      
 }
 
 .grid-container .grid-image .img4 h2 {
@@ -106,21 +83,231 @@ header .header-block {
 .grid-container .grid-image .img5 img {
     flex-shrink:0 10 300px;
 }
+/* END OF GRID SETUP */
 
-
-/* 
+/* BOX 1 */
 .grid-container div:nth-child(1) {
+    display:flex;
+    padding:10px;
     grid-column: 1/3;
 }
 
+.grid-container div:nth-child(1) img {
+    display:flex;
+    max-width:300px;
+    padding:10px;
+    border-radius:500px;
+    background:linear-gradient(to right, rgb(226, 226, 226), rgb(148, 104, 75)); 
+}
+
+.grid-container div:nth-child(1) .grid-box1-text {
+    display:flex;
+    flex-direction:column;
+    padding-left:20px;
+    font-size:150%;
+    justify-content:space-evenly;
+}
+
+.grid-container div:nth-child(1) h2 {
+    display:flex;
+    font-size:300%;
+}
+/* END OF BOX 1 */
+
+/* BOX 2 */
 .grid-container div:nth-child(2) {
-    grid-column: 1/3;
+    display:flex;
+    padding:10px;
+    grid-column: 1/2;
 }
 
+.grid-container div:nth-child(2) .grid-box2-text {
+    flex-direction:column;
+    text-align:center;
+    font-size:150%;
+}
+
+.grid-container div:nth-child(2) .grid-box2-text h2 {
+    justify-content:center;    
+}
+/* END OF BOX 2 */
+
+/* BOX 3 */
 .grid-container div:nth-child(3) {
-    grid-column:1 / 3;
+    display:flex;
+    padding:10px;
+    grid-column: 2/2;
 }
 
+.horiseon {
+    display:flex;
+    background-image:url(../images/Horiseon.png);
+    background-size:cover;
+    /* background-repeat:repeat; */
+    background-position:left;
+    background-clip:border-box;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+
+.horiseon:hover {
+    filter:brightness(1.2);
+    width:102%;
+    padding:0px;
+}
+/* END OF BOX 3 */
+
+/* BOX 4 */
+.grid-container div:nth-child(4) {
+    display:flex;
+    padding:10px;
+    grid-column: 1/2;
+}
+
+.grid-container div:nth-child(4) .editor {
+    display:flex;
+    background-image:url(../images/Big\ Mike\ on\ Glacier.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip:border-box;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+
+.editor:hover {
+    filter:brightness(1.2);
+}
+/* END OF BOX 4 */
+
+/* BOX 5 */
+.grid-container div:nth-child(5) {
+    display:flex;
+    padding:10px;
+    grid-column: 2/2;
+}
+
+.grid-container div:nth-child(5) .grid-box5-text {
+    flex-direction:column;
+    text-align:center;
+    font-size:150%;
+    
+}
+
+.grid-container div:nth-child(5) .grid-box5-text h2 {
+    justify-content:center;
+    padding:10px;
+}
+/* END OF BOX 5 */
+
+/* BOX 6 */
+address {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.grid-container div:nth-child(6) {
+    display:flex;
+    padding:10px;
+    grid-column: 1/2;
+}   
+
+.grid-container div:nth-child(6) .grid-box6-text {
+    flex-direction:column;
+    text-align:center;
+    font-size:150%; 
+}
+
+.grid-container div:nth-child(6) .grid-box6-text h2 {
+    justify-content:center;
+    padding:10px;
+}
+/* END OF BOX 6 */
+
+/* BOX 7 */
+.grid-container div:nth-child(7) {
+    display:flex;
+    padding:10px;
+    grid-column: 2/2;
+}
+
+.grid-container div:nth-child(7) .resume-box {
+    display:flex;
+    background-image:url(../images/resume_screenshot.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip:border-box;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+
+.resume-box:hover {
+    filter:brightness(1.2);    
+}
+/* END OF BOX 7 */
+
+
+footer {
+    display:flex;
+    justify-content:center;
+    padding:40px;
+    height:200px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #myBtn {
+    position:fixed;
+    bottom:20px;
+    right:30px;
+    z-index:99;
+    border:none;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    padding:15px;
+    border-radius:10px;
+    font-size:18px;
+}
+ */
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grid-container div:nth-child(3) {
+    grid-column: 2/2;
+} */
+/* 
 .grid-container div:nth-child(4) {
     grid-column: 1/3;
 }
@@ -133,8 +320,8 @@ header .header-block {
     grid-column: 1/3;
 }
  */
-.grid-container .grid-image .img2 #about img h2 p {
+/* .grid-container .grid-image .img2 #about img h2 p {
     grid-column:span;
 }
-
+ */
 
