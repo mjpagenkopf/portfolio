@@ -74,13 +74,13 @@ header .header-block {
     opacity:0.9;      
 }
 
-.grid-container .grid-image .img4 h2 {
+.grid-container .grid-image .img8 h2 {
     display:flex;
     justify-content:center;
     font-size:200px;
 }
 
-.grid-container .grid-image .img5 img {
+.grid-container .grid-image .img9 img {
     flex-shrink:0 10 300px;
 }
 /* END OF GRID SETUP */
@@ -165,9 +165,9 @@ header .header-block {
     grid-column: 1/2;
 }
 
-.grid-container div:nth-child(4) .editor {
+.grid-container div:nth-child(4) .workday {
     display:flex;
-    background-image:url(../images/Big\ Mike\ on\ Glacier.jpg);
+    background-image:url(../images/workday_scheduler.png);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
@@ -177,7 +177,7 @@ header .header-block {
     cursor:pointer;
 }
 
-.editor:hover {
+.workday:hover {
     filter:brightness(1.2);
 }
 /* END OF BOX 4 */
@@ -203,25 +203,20 @@ header .header-block {
 /* END OF BOX 5 */
 
 /* BOX 6 */
-address {
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
-
 .grid-container div:nth-child(6) {
     display:flex;
     padding:10px;
     grid-column: 1/2;
-}   
+}
 
 .grid-container div:nth-child(6) .grid-box6-text {
     flex-direction:column;
     text-align:center;
-    font-size:150%; 
+    font-size:150%;
 }
 
 .grid-container div:nth-child(6) .grid-box6-text h2 {
-    justify-content:center;
-    padding:10px;
+    justify-content:center;    
 }
 /* END OF BOX 6 */
 
@@ -232,7 +227,101 @@ address {
     grid-column: 2/2;
 }
 
-.grid-container div:nth-child(7) .resume-box {
+.grid-container div:nth-child(7) .weather {
+    display:flex;
+    background-image:url(../images/weather_app.png);
+    background-size:cover;
+    /* background-repeat:repeat; */
+    background-position:left;
+    background-clip:border-box;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+
+.weather:hover {
+    filter:brightness(1.2);
+    width:102%;
+    padding:0px;
+}
+/* END OF BOX 7 */
+
+/* BOX 8 */
+.grid-container div:nth-child(8) {
+    display:flex;
+    padding:10px;
+    grid-column: 1/2;
+}
+
+.grid-container div:nth-child(8) .covid {
+    display:flex;
+    background-image:url(../images/covid.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip:border-box;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+
+.covid:hover {
+    filter:brightness(1.2);
+}
+/* END OF BOX 8 */
+
+/* BOX 9 */
+.grid-container div:nth-child(9) {
+    display:flex;
+    padding:10px;
+    grid-column: 2/2;
+}
+
+.grid-container div:nth-child(9) .grid-box9-text {
+    flex-direction:column;
+    text-align:center;
+    font-size:150%;
+    
+}
+
+.grid-container div:nth-child(9) .grid-box9-text h2 {
+    justify-content:center;
+    padding:10px;
+}
+/* END OF BOX 9 */
+
+
+/* BOX 10 */
+address {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.grid-container div:nth-child(10) {
+    display:flex;
+    padding:10px;
+    grid-column: 1/2;
+}   
+
+.grid-container div:nth-child(10) .grid-box10-text {
+    flex-direction:column;
+    text-align:center;
+    font-size:150%; 
+}
+
+.grid-container div:nth-child(10) .grid-box10-text h2 {
+    justify-content:center;
+    padding:10px;
+}
+/* END OF BOX 10 */
+
+/* BOX 11 */
+.grid-container div:nth-child(11) {
+    display:flex;
+    padding:10px;
+    grid-column: 2/2;
+}
+
+.grid-container div:nth-child(11) .resume-box {
     display:flex;
     background-image:url(../images/resume_screenshot.png);
     background-size:cover;
@@ -247,8 +336,7 @@ address {
 .resume-box:hover {
     filter:brightness(1.2);    
 }
-/* END OF BOX 7 */
-
+/* END OF BOX 11 */
 
 footer {
     display:flex;
@@ -262,33 +350,53 @@ footer {
 
 
 
+/* BOX 8 */
+/* .grid-container div:nth-child(8) {
+    display:flex;
+    padding:10px;
+    grid-column: 1/2;
+} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* #myBtn {
-    position:fixed;
-    bottom:20px;
-    right:30px;
-    z-index:99;
-    border:none;
-    outline:none;
-    color:white;
+/* .grid-container div:nth-child(8) .editor {
+    display:flex;
+    background-image:url(../images/Big\ Mike\ on\ Glacier.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip:border-box;
+    width:100%;
+    height:100%;
     cursor:pointer;
-    padding:15px;
-    border-radius:10px;
-    font-size:18px;
+} */
+
+/* .editor:hover {
+    filter:brightness(1.2);
+} */
+/* END OF BOX 4 */
+
+/* BOX 5 */
+/* .grid-container div:nth-child(9) {
+    display:flex;
+    padding:10px;
+    grid-column: 2/2;
 }
- */
+
+.grid-container div:nth-child(9) .grid-box9-text {
+    flex-direction:column;
+    text-align:center;
+    font-size:150%;
+    
+}
+
+.grid-container div:nth-child(5) .grid-box9-text h2 {
+    justify-content:center;
+    padding:10px;
+} */
+/* END OF BOX 5 */
+
+
+
+
 
 
     
@@ -302,26 +410,4 @@ footer {
 
 
 
-
-
-/* .grid-container div:nth-child(3) {
-    grid-column: 2/2;
-} */
-/* 
-.grid-container div:nth-child(4) {
-    grid-column: 1/3;
-}
-
-.grid-container div:nth-child(5) {
-    grid-column: 1/3;
-}
-
-.grid-container div:nth-child(6) {
-    grid-column: 1/3;
-}
- */
-/* .grid-container .grid-image .img2 #about img h2 p {
-    grid-column:span;
-}
- */
 

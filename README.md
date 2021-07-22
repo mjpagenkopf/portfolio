@@ -1,24 +1,15 @@
-# portfolio
+# Project 1 Week - Portfolio Update
 
-Project assignment was to create my full stack developer portfolio with the intention of updating throughout the course. 
+## Description
 
-* I made this site strictly using html and css documents. 
-* The attempted to meet current accessibility standards. 
-* The header has navbar that links to separate sections of the page.
-* I used a css grid layout for the main body of the page with varying degrees of success. It was a difficult process at the beginning.
-* There are several links in the body of the email
-    - "Heriseon" live website from the previous homework assignment.
-    - Editing Portfolio site from my Adobe account.
-    - my Github repository.
-    - Also included a popup of my resume. 
+I added projects that I had created during the weeks between creating my portfolio. These assignments include the Workday Scheduler, the Weather Dashboard App and the first group project, a Covid 19 Data Center Application. Each addition includes a brief description and links to the live websites.
 
----
+## Contact
 
-Links to site and repository below:
+* Github Username: mpagenkopf
 
-* https://mjpagenkopf.github.io/portfolio/
+* Email: pagenkopf.edit@gmail.com
 
-* https://github.com/mjpagenkopf/portfolio
+* Link to Repository: [Repository](https://mjpagenkopf.github.io/portfolio/)
 
-
-
+* Link to Deployed Portfolio: [Porfolio](https://mjpagenkopf.github.io/portfolio/)
